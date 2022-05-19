@@ -1,0 +1,93 @@
+body {
+    width: 100%;
+}
+
+header {
+    background-image: url("sky.webp");
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titel {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 70px;
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+}
+
+.main {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    
+}
+a{
+text-decoration: none;
+color: white;
+}
+
+
+.boxes{
+    width: 1000px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-block: 10px;
+   
+}
+
+.boxes > .box {
+    position: relative;
+    background-color: #91c7f7;
+    width: 315px;
+    margin:10px;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    font-size: 20px;
+}
+
+.text{
+    width: 980px;
+    height: 130px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+footer{
+    background-color:#91c7f7 ;
+    height: 170px;
+}
+
+.all{
+    width: 980px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.all > .image{
+    width: 12%;
+    display: flex;
+    align-content: center;
+}
+.all > .kontakt{
+    width:88%;
+    
+}
